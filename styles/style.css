@@ -1,3 +1,30 @@
-.nav {
-    /* background-color: #49a3e2; */
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* div {
+    height:50px;
+    width:50px;
+} */
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    background-color: rgb(200, 193, 193);
+}
+
+.nav-items {
+    display: flex;
+    padding: 2rem;
+}
+
+.nav-item {
+    margin-left: 2rem;
+}
+
+body {
+    margin: 0px;
 }

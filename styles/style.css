@@ -52,6 +52,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 .footer-item {
@@ -60,7 +61,6 @@ body {
 }
 
 .footer-title {
-    color: white;
     text-align: center;
 }
 
@@ -82,4 +82,8 @@ a {
     font-size: 400% !important; /*find another way of doing this*/
     width: 30%;
     padding: 9%;
-  }
+}
+
+.website-by{
+    align-self: flex-end;
+}

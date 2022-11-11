@@ -44,10 +44,8 @@ body {
 
 .footer-container {
     background-color: black;
-    flex-grow: 0.5;
     display: flex;
     justify-content: center;
-    align-items: center;
     color: white;
 }
 
@@ -70,9 +68,10 @@ body {
 }
 
 .main {
-    flex-grow: 2;
     display: flex;
-    justify-content: center;
+    margin-bottom: 5%;
+    flex-direction: column;
+    align-items: center;
 }
 
 a {
@@ -100,5 +99,40 @@ a {
 
 .hero-img {
     width: 100%;
-    height: 40rem;
+    height: 40rem;    
+}
+
+.hero {
+    margin-bottom: 5%;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.feature-img {
+    width: 15%;
+    height: 30%;
+    align-self: center;
+}
+
+.service {
+    background-color: black;
+    width: 7vh;
+    height: 0.75vh;
+    margin: 2%;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.services-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

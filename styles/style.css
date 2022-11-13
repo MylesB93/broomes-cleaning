@@ -130,14 +130,14 @@ a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 100%;
+    max-width: 55%;
 }
 
 .services-block {
     display: flex;
     flex-direction: column;
-    align-items: center;
     max-width: 100%;
+    align-items: center;
 }
 
 .green-bg {
@@ -145,5 +145,9 @@ a {
 }
 
 .service-img {
-    height: 5%;
+    height: 12rem;
+}
+
+.description {
+    max-width: 60%;
 }

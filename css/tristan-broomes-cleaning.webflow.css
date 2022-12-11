@@ -1378,9 +1378,9 @@
 
   .navbar-wrapper-three-2 {
     -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
+    -webkit-justify-content: center;
     -ms-flex-pack: justify;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .navbar-brand-three-2 {

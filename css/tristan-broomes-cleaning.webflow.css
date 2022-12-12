@@ -652,7 +652,7 @@
   -ms-flex-pack: center;
   justify-content: center;
   background-color: #14a723;
-  background-image: linear-gradient(45deg, #037e3e 41%, #fff);
+  background-image: linear-gradient(45deg, #60d837 41%, #fff);
 }
 
 .image {
@@ -1992,14 +1992,14 @@
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  font-size:2vh;
+  font-size:1.5vh;
 }
 ::-moz-placeholder { /* Firefox 19+ */
-  font-size:2vh;
+  font-size:1.5vh;
 }
 :-ms-input-placeholder { /* IE 10+ */
-  font-size:2vh;
+  font-size:1.5vh;
 }
 :-moz-placeholder { /* Firefox 18- */
-  font-size:2vh;
+  font-size:1.5vh;
 }
